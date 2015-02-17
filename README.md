@@ -1,14 +1,21 @@
-## ES6 6to5 Browserify Boilerplate
+#ES6 Blog post sources
+those are the sources from my post on blog.neoxia.com
 
-This is an boilerplate repo to make it easy to experiment with [ES6]. It's inspired by [es6-browserify-boilerplate](https://github.com/thoughtram/es6-browserify-boilerplate) but uses 6to5 for transpilation which does not depend on any runtime.
 
+
+
+
+This begins from a boilerplate repo to make it easy to experiment with [ES6]. [es6-6to5-browserify-boilerplate](https://github.com/thoughtram/es6-6to5-browserify-boilerplate)
+
+
+this is the copy paste from the boilerplate README
 
 ### Initial setup
 
 ```bash
 # Clone the repo...
-git clone https://github.com/thoughtram/es6-6to5-browserify-boilerplate.git
-cd es6-6to5-browserify-boilerplate
+git clone https://github.com/hanfi/ES6-Blog-Post-sources.git
+cd ES6-Blog-Post-sources.git
 
 # Then, you need to install all the dependencies...
 npm install
@@ -25,7 +32,6 @@ gulp serve
 # If you wanna Gulp to re-build on every change...
 gulp watch
 ```
-
 
 ### WTF is ES6?
 Simply, the next version of JavaScript that contains some really cool features. You might check out some of these:
