@@ -16,7 +16,7 @@ RUN git clone https://github.com/hanfi/ES6-Blog-Post-sources.git /app
 WORKDIR /app
 RUN npm install
 
-VOLUME ["/var"]
+VOLUME ["/app"]
 
 EXPOSE 3000
 ENTRYPOINT ["gulp", "watch"]
