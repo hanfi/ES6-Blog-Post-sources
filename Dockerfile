@@ -13,4 +13,4 @@ RUN npm install
 VOLUME ["/app"]
 
 EXPOSE 3000
-CMD ["gulp", "watch"]
+ENTRYPOINT ["gulp", "watch"]
