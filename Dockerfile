@@ -6,9 +6,10 @@ MAINTAINER Souhail Hanfi <souhail.hanfi@neoxia.com>
 RUN npm install -g gulp
 
 #clone the repo
-WORKDIR /app
 RUN git clone https://github.com/hanfi/ES6-Blog-Post-sources.git /app
 RUN npm install
 VOLUME ["/app"]
+WORKDIR /app
+
 EXPOSE 3000
-ENTRYPOINT ["gulp", "watch"]
+CMD ["gulp", "watch"]
