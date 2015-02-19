@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 MAINTAINER Souhail Hanfi <souhail.hanfi@neoxia.com>
 
-RUN apt-get update -y && apt-get -y install nodejs
+RUN apt-get update -y && apt-get -y install nodejs npm
 
 # Install Bower & Gulp
 RUN npm install -g gulp
