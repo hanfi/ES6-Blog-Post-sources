@@ -4,8 +4,6 @@ MAINTAINER Souhail Hanfi <souhail.hanfi@neoxia.com>
 
 RUN apt-get update -y && apt-get -y install nodejs
 
-ENV PATH $PATH:/nodejs/bin
-
 # Install Bower & Gulp
 RUN npm install -g gulp
 
