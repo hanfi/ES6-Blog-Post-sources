@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 MAINTAINER Souhail Hanfi <souhail.hanfi@neoxia.com>
 
-RUN apt-get update -y && apt-get install nodejs
+RUN apt-get update -y && apt-get -y install nodejs
 
 ENV PATH $PATH:/nodejs/bin
 
