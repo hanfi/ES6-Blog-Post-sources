@@ -7,7 +7,7 @@ those are the sources from my post on blog.neoxia.com
 
 This begins from a boilerplate repo to make it easy to experiment with [ES6]. [es6-6to5-browserify-boilerplate](https://github.com/thoughtram/es6-6to5-browserify-boilerplate)
 
-you can simply use my Docker env via the Dockerfile :
+you can simply use a Docker env we have a Dockerfile :
 ```bash
 docker build -t hanfi/es6_env  github.com/hanfi/ES6-Blog-Post-sources
 docker run --name="es6_env" -p 3000:3000 hanfi/es6_env -v /folder_to_share/:/app
