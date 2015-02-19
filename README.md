@@ -10,6 +10,7 @@ This begins from a boilerplate repo to make it easy to experiment with [ES6]. [e
 you can simply use my Docker env via the Dockerfile :
 ```bash
 docker build -t hanfi/es6_env  github.com/hanfi/ES6-Blog-Post-sources
+docker run --name="es6_env" -p 3000:3000 hanfi/es6_env -v /folder_to_share/:/app
 ````
 
 or run it directly on the host
